@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+
+
+.main-img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+#header-top-container {
+    width: 100%;
+    height: 20px;
+  
+    background: #000000;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    gap: 950px;
+    
+    }
+
+
+.social-icon {
+    width: 22px;
+    height: 18px;
+    border-radius: 10px;
+}
+
+#nav-container {
+    width: auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+.nav-buttons {
+    background-color: #FFD54F; /* Change to your desired button color */
+    color: #222831; /* Text color for contrast */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-buttons:hover {
+    background-color: #FFC107; 
+}
+
+header {
+   
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#welcome-text {
+    text-align: center;
+}
+
+.custom-hr {
+    width: 75%; 
+    margin: 0 auto; 
+    border: 1px solid rgba(13, 13, 13, 0.5); ; 
+    margin-top: 10px;
+}
+
+#menu-first-page-section {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    height: 700px;
+    margin-top: 70px;
+   
+
+}
+
+#browse-menu-header {
+    width: 600px;
+    height: 150px;
+    border: 3px solid rgba(13, 13, 13, 0.5);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+    border-radius: 4px;
+}
+
+#browse-menu-text {
+    font-size: 2.0 rem;
+}
+
+#menu-first-page-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 700px;
+   
+   
+
+}
+
+#browse-menu-header {
+    width: 700px;
+    height: 150px;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 4px;
+}
+
+#browse-menu-text {
+    font-size: 4.0 rem;
+}
+
+#menu-p1-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    width: 620px;
+    height: 650px;
+    margin-top: 40px;
+    
+  
+}
+
+.menu-card-p1 {
+    display: flex;
+   align-items: center;
+   text-align: center;
+    flex-direction: column;
+    width: 177px;
+    height: 448px;
+    border: 1px solid black;
+    border-radius: 3px;
+   margin-top: -100px;
+   position: relative;
+
+}
+
+.menu-card-p1-images {
+    width: 100px;
+    height: 80px;
+
+}
+
+.menu-card-p1 p {
+    max-width: 120px; /* Limit the width of the text block */
+    margin: 0 auto; /* Center the paragraph inside the menu card */
+    line-height: 1.6; 
+    margin-top: 15px;
+    font-size: 1.1rem;
+  }
+
+  .menu-p1-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(210, 4, 4);
+    cursor: pointer;
+    text-decoration: none;
+    background: transparent;
+    border: none;
+  }
+
+
+.menu-p1-button::after {
+    content: '';
+    position: absolute;
+    bottom: -4px; /* Position below the button */
+    left: 0; /* Align to the left */
+    background-color: #ad343e; /* Background color */
+    height: 2px; /* Height of the underline */
+    width: 0; /* Start with no width */
+    transition: all 0.3s ease; /* Transition for smooth effect */
+}
+
+.menu-p1-button:hover::after {
+    width: 100%; /* Expand underline on hover */
+}
+ 
+
+#menu-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    border: 2px solid brown;
+    overflow: visible;
+}
+
+#menu-title {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 4rem;
+}
+
+#menu-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 columns */
+    gap: 30px; /* Adjust the gap between the cards */
+    padding: 20px;
+    width: 720px;
+    height: 800px;
+    border: 2px solid black;
+    overflow: auto;
+
+
+}
+
+.menu-card {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 5px;
+    width: 300px;
+    height: 380px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.menu-price {
+    color: brown;
+    font-weight: 500;
+}
+
+.food-name {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.menu-image {
+    max-width: 300px;
+    max-height: 180px;
+    min-height: 180px;
+}
